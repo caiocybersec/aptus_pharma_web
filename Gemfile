@@ -15,10 +15,29 @@ gem "turbo-rails"
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
-gem "jbuilder"
-# Use Redis adapter to run Action Cable in production
-# gem "redis", ">= 4.0.1"
+gem "sass-rails", ">= 6"
+gem "webpacker", "~> 5.0"
 
+gem "devise"
+gem "pundit"
+gem "activeadmin"
+gem "kaminari"
+gem "ransack"
+gem "paper_trail"
+gem "friendly_id"
+gem "rspec-rails"
+gem "factory_bot_rails"
+gem "simplecov"
+
+gem "faraday"
+gem "grape"
+
+gem "newrelic_rpm"
+gem "bullet"
+
+# Gems para Slim e CoffeeScript
+gem "slim-rails"   # Para usar Slim nas views
+gem "coffee-rails"  # Para usar CoffeeScript
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
